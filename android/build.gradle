@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.3'
+    }
+}
+// END
+
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled  true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    android.packagingOptions {
+        exclude 'META-INF/LICENSE'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+// END
+
+dependencies {
+    compile 'com.facebook.react:react-native:+'
+    compile 'com.github.scribejava:scribejava-apis:3.4.1'
+    compile 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
+    compile 'com.google.code.gson:gson:+'
+}
