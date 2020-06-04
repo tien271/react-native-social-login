@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B76E094E1E768CE100A9AF9A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B76E094B1E768CE100A9AF9A /* README.md */; };
+		B76E094F1E768CE100A9AF9A /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B76E094C1E768CE100A9AF9A /* XMLReader.h */; };
+		B76E09501E768CE100A9AF9A /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B76E094D1E768CE100A9AF9A /* XMLReader.m */; };
+		D935004D1D513CF700C7BA47 /* OAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D935004C1D513CF700C7BA47 /* OAuthManager.m */; };
+		D9F2EAD31DA9A9650000BD52 /* OAuthClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2EAD11DA9A9650000BD52 /* OAuthClient.h */; };
+		D9F2EAD41DA9A9650000BD52 /* OAuthClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2EAD21DA9A9650000BD52 /* OAuthClient.m */; };
+		D9F2EAD91DA9A9730000BD52 /* OAuth1Client.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2EAD51DA9A9730000BD52 /* OAuth1Client.h */; };
+		D9F2EADA1DA9A9730000BD52 /* OAuth1Client.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2EAD61DA9A9730000BD52 /* OAuth1Client.m */; };
+		D9F2EADB1DA9A9730000BD52 /* OAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2EAD71DA9A9730000BD52 /* OAuth2Client.h */; };
+		D9F2EADC1DA9A9730000BD52 /* OAuth2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2EAD81DA9A9730000BD52 /* OAuth2Client.m */; };
+		D9F2EADE1DA9A9840000BD52 /* OAuthClientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2EADD1DA9A9840000BD52 /* OAuthClientProtocol.h */; };
+		D9F2EAE21DA9A9930000BD52 /* OAuthManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2EADF1DA9A9930000BD52 /* OAuthManager.h */; };
+		D9F2EAE31DA9A9930000BD52 /* OAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2EAE01DA9A9930000BD52 /* OAuthManager.m */; };
+		D9F2EAE41DA9A9930000BD52 /* OAuthManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2EAE11DA9A9930000BD52 /* OAuthManagerConstants.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D902863D1D1D0106006B2E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D991AB771D1B237400DE9E58 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45935B91DF0442390E2CA6DEEF68AE99;
+			remoteInfo = OAuthSwift;
+		};
+		D9841C461D4A7ECD00C9BEA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D991AB771D1B237400DE9E58 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B81AD95493A7C44AA1914D8FCA4531;
+			remoteInfo = "Pods-OAuthManager";
+		};
+		D991AB7C1D1B237400DE9E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D991AB771D1B237400DE9E58 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CAC5266A4EA1F9CFED6713A2C58E445D;
+			remoteInfo = OAuthSwift;
+		};
+		D991AB7E1D1B237400DE9E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D991AB771D1B237400DE9E58 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 47C05594527CA5E982EE8A3D06C34291;
+			remoteInfo = "Pods-OAuthManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B76E094B1E768CE100A9AF9A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B76E094C1E768CE100A9AF9A /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		B76E094D1E768CE100A9AF9A /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		D91353961DA7849100AABC96 /* libOAuthManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOAuthManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D935004C1D513CF700C7BA47 /* OAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAuthManager.m; path = OAuthManager/OAuthManager.m; sourceTree = "<group>"; };
+		D991AB771D1B237400DE9E58 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		D9F2EAD11DA9A9650000BD52 /* OAuthClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthClient.h; path = OAuthManager/OAuthClient.h; sourceTree = SOURCE_ROOT; };
+		D9F2EAD21DA9A9650000BD52 /* OAuthClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAuthClient.m; path = OAuthManager/OAuthClient.m; sourceTree = SOURCE_ROOT; };
+		D9F2EAD51DA9A9730000BD52 /* OAuth1Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuth1Client.h; path = OAuthManager/OAuth1Client.h; sourceTree = SOURCE_ROOT; };
+		D9F2EAD61DA9A9730000BD52 /* OAuth1Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAuth1Client.m; path = OAuthManager/OAuth1Client.m; sourceTree = SOURCE_ROOT; };
+		D9F2EAD71DA9A9730000BD52 /* OAuth2Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuth2Client.h; path = OAuthManager/OAuth2Client.h; sourceTree = SOURCE_ROOT; };
+		D9F2EAD81DA9A9730000BD52 /* OAuth2Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAuth2Client.m; path = OAuthManager/OAuth2Client.m; sourceTree = SOURCE_ROOT; };
+		D9F2EADD1DA9A9840000BD52 /* OAuthClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthClientProtocol.h; path = OAuthManager/OAuthClientProtocol.h; sourceTree = SOURCE_ROOT; };
+		D9F2EADF1DA9A9930000BD52 /* OAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthManager.h; path = OAuthManager/OAuthManager.h; sourceTree = SOURCE_ROOT; };
+		D9F2EAE01DA9A9930000BD52 /* OAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAuthManager.m; path = OAuthManager/OAuthManager.m; sourceTree = SOURCE_ROOT; };
+		D9F2EAE11DA9A9930000BD52 /* OAuthManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthManagerConstants.h; path = OAuthManager/OAuthManagerConstants.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B76E094A1E768CE100A9AF9A /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				B76E094B1E768CE100A9AF9A /* README.md */,
+				B76E094C1E768CE100A9AF9A /* XMLReader.h */,
+				B76E094D1E768CE100A9AF9A /* XMLReader.m */,
+			);
+			name = XMLReader;
+			path = OAuthManager/XMLReader;
+			sourceTree = SOURCE_ROOT;
+		};
+		D93EF9941DA77CBB00EC55A0 /* /Users/auser/Development/react-native/mine/OAuthManager/ios/OAuthManager.xcodeproj */ = {
+			isa = PBXGroup;
+			children = (
+				B76E094A1E768CE100A9AF9A /* XMLReader */,
+				D9F2EADF1DA9A9930000BD52 /* OAuthManager.h */,
+				D9F2EAE01DA9A9930000BD52 /* OAuthManager.m */,
+				D9F2EAE11DA9A9930000BD52 /* OAuthManagerConstants.h */,
+				D9F2EAD11DA9A9650000BD52 /* OAuthClient.h */,
+				D9F2EAD21DA9A9650000BD52 /* OAuthClient.m */,
+				D9F6DCB41DA8EFBC00D10561 /* Clients */,
+				D9F6DCB51DA8EFC300D10561 /* Protocols */,
+				D91353961DA7849100AABC96 /* libOAuthManager.a */,
+			);
+			path = "/Users/auser/Development/react-native/mine/OAuthManager/ios/OAuthManager.xcodeproj";
+			sourceTree = "<absolute>";
+		};
+		D991AB781D1B237400DE9E58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D991AB7D1D1B237400DE9E58 /* OAuthSwift.framework */,
+				D991AB7F1D1B237400DE9E58 /* Pods_OAuthManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F6DCB41DA8EFBC00D10561 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2EAD51DA9A9730000BD52 /* OAuth1Client.h */,
+				D9F2EAD61DA9A9730000BD52 /* OAuth1Client.m */,
+				D9F2EAD71DA9A9730000BD52 /* OAuth2Client.h */,
+				D9F2EAD81DA9A9730000BD52 /* OAuth2Client.m */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		D9F6DCB51DA8EFC300D10561 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2EADD1DA9A9840000BD52 /* OAuthClientProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D92A80BB1DA9030200EFDC2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F2EAD91DA9A9730000BD52 /* OAuth1Client.h in Headers */,
+				D9F2EADE1DA9A9840000BD52 /* OAuthClientProtocol.h in Headers */,
+				B76E094F1E768CE100A9AF9A /* XMLReader.h in Headers */,
+				D9F2EADB1DA9A9730000BD52 /* OAuth2Client.h in Headers */,
+				D9F2EAD31DA9A9650000BD52 /* OAuthClient.h in Headers */,
+				D9F2EAE41DA9A9930000BD52 /* OAuthManagerConstants.h in Headers */,
+				D9F2EAE21DA9A9930000BD52 /* OAuthManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* OAuthManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "OAuthManager" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* Copy Files */,
+				D92A80BB1DA9030200EFDC2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9841C471D4A7ECD00C9BEA8 /* PBXTargetDependency */,
+				D902863E1D1D0106006B2E5B /* PBXTargetDependency */,
+			);
+			name = OAuthManager;
+			productName = RCTDataManager;
+			productReference = D91353961DA7849100AABC96 /* libOAuthManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "OAuthManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D93EF9941DA77CBB00EC55A0 /* /Users/auser/Development/react-native/mine/OAuthManager/ios/OAuthManager.xcodeproj */;
+			productRefGroup = D93EF9941DA77CBB00EC55A0 /* /Users/auser/Development/react-native/mine/OAuthManager/ios/OAuthManager.xcodeproj */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D991AB781D1B237400DE9E58 /* Products */;
+					ProjectRef = D991AB771D1B237400DE9E58 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* OAuthManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D991AB7D1D1B237400DE9E58 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = D991AB7C1D1B237400DE9E58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D991AB7F1D1B237400DE9E58 /* Pods_OAuthManager.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_OAuthManager.framework;
+			remoteRef = D991AB7E1D1B237400DE9E58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76E094E1E768CE100A9AF9A /* README.md in Sources */,
+				D9F2EADC1DA9A9730000BD52 /* OAuth2Client.m in Sources */,
+				D935004D1D513CF700C7BA47 /* OAuthManager.m in Sources */,
+				D9F2EAD41DA9A9650000BD52 /* OAuthClient.m in Sources */,
+				D9F2EADA1DA9A9730000BD52 /* OAuth1Client.m in Sources */,
+				D9F2EAE31DA9A9930000BD52 /* OAuthManager.m in Sources */,
+				B76E09501E768CE100A9AF9A /* XMLReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D902863E1D1D0106006B2E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = D902863D1D1D0106006B2E5B /* PBXContainerItemProxy */;
+		};
+		D9841C471D4A7ECD00C9BEA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OAuthManager";
+			targetProxy = D9841C461D4A7ECD00C9BEA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DYLIB_INSTALL_NAME_BASE = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/LinkingIOS",
+					"$(SRCROOT)/../../../ios/Pods/DCTAuth/DCTAuth",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lReact",
+					"-lRCTLinking",
+				);
+				PRODUCT_NAME = OAuthManager;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DYLIB_INSTALL_NAME_BASE = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/LinkingIOS",
+					"$(SRCROOT)/../../../ios/Pods/DCTAuth/DCTAuth",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lReact",
+					"-lRCTLinking",
+				);
+				PRODUCT_NAME = OAuthManager;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "OAuthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "OAuthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

@@ -1,0 +1,64 @@
+{
+  "name": "react-native-social-login",
+  "version": "1.0.0",
+  "author": "Tien Nguyen",
+  "description": "An oauth manager for dealing with the complexities of oauth",
+  "main": "./react-native-social-login.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "babel --ignore 'node_modules,dist' --source-maps=true --out-dir=dist .",
+    "dev": "npm run compile -- --watch",
+    "lint": "eslint ./src",
+    "publish_pages": "gh-pages -d public/",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tien271/react-native-social-login.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-firestack",
+    "firestack",
+    "firebase",
+    "oauth",
+    "twitter"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "rnpm": {
+    "commands": {
+      "prelink": "node_modules/react-native-social-login/bin/prepare.sh",
+      "postlink": "node_modules/react-native-social-login/bin/cocoapods.sh"
+    },
+    "ios": {
+      "project": "ios/OAuthManager.xcodeproj"
+    },
+    "android": {
+      "packageInstance": "new OAuthManagerPackage()"
+    }
+  },
+  "dependencies": {
+    "invariant": "^2.2.1",
+    "valib": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0"
+  },
+  "bugs": {
+    "url": "https://github.com/tien271/react-native-social-login/issues"
+  },
+  "homepage": "https://github.com/tien271/react-native-social-login#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
